@@ -5,7 +5,7 @@ html, body {
 
 .custom-button {
     width: 25vw; 
-    height: 17vh;
+    height: 12.5vh;
     border: 1px solid black;
     border-radius: 5%;
     font-weight: 700;
@@ -23,7 +23,7 @@ button:hover {
 
 .flex-container {
     width: 100vw; 
-    height: 17vh; 
+    height: 12.5vh; 
     margin: 0; 
     display: flex;
     justify-content: space-between;

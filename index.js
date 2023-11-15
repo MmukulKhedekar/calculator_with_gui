@@ -6,9 +6,9 @@ function createWindow() {
     mainWindow = new BrowserWindow({
         show: false,
         backgroundColor: '#fff',
-        height: 450,
+        height: 600,
         width: 300,
-        opacity: 0.9,
+        opacity: 0.8,
         resizable: false,
         darkTheme: true,
         autoHideMenuBar: true

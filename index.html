@@ -10,10 +10,24 @@
     <script src="./script.js"></script>
 </head>
 <body>
-    <div style="width:100vw; height: 32vh">
+    <div style="width:100vw; height: 25vh">
         <span id="display-answer">0</span>
     </div>
     <div>
+        <div class="flex-container">
+            <button class="custom-button" onclick="add(this.innerText)">(</button>
+            <button class="custom-button" onclick="add(this.innerText)">)</button>
+            <button class="custom-button" onclick="eval_and_negate()">+/-</button>
+            <button class="custom-button" onclick="reset()">C</button>
+        </div>
+
+        <div class="flex-container">
+            <button class="custom-button" onclick="add(this.innerText)">%</button>
+            <button class="custom-button" onclick="add(this.innerText)">^</button>
+            <button class="custom-button" onclick="add(this.innerText)">**</button>
+            <button class="custom-button" onclick="backspace()">⌫</button>
+        </div>
+
         <div class="flex-container">
             <button class="custom-button" onclick="add(this.innerText)">1</button>
             <button class="custom-button" onclick="add(this.innerText)">2</button>
@@ -36,7 +50,7 @@
         </div>
 
         <div class="flex-container">
-            <button class="custom-button" onclick="reset()">C</button>
+            <button class="custom-button" onclick="add(this.innerText)">.</button>
             <button class="custom-button" onclick="add(this.innerText)">0</button>
             <button class="custom-button" onclick="calculate()">=</button>
             <button class="custom-button" onclick="add(this.innerText)">/</button>
