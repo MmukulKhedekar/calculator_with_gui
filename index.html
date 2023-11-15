@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div style="width:100vw; height: 32vh">
+        <span id="display-answer">0</span>
+    </div>
+    <div>
+        <div class="flex-container">
+            <button class="custom-button" onclick="add(this.innerText)">1</button>
+            <button class="custom-button" onclick="add(this.innerText)">2</button>
+            <button class="custom-button" onclick="add(this.innerText)">3</button>
+            <button class="custom-button" onclick="add(this.innerText)">+</button>
+        </div>
+
+        <div class="flex-container">
+            <button class="custom-button" onclick="add(this.innerText)">4</button>
+            <button class="custom-button" onclick="add(this.innerText)">5</button>
+            <button class="custom-button" onclick="add(this.innerText)">6</button>
+            <button class="custom-button" onclick="add(this.innerText)">-</button>
+        </div>
+
+        <div class="flex-container">
+            <button class="custom-button" onclick="add(this.innerText)">7</button>
+            <button class="custom-button" onclick="add(this.innerText)">8</button>
+            <button class="custom-button" onclick="add(this.innerText)">9</button>
+            <button class="custom-button" onclick="add(this.innerText)">*</button>
+        </div>
+
+        <div class="flex-container">
+            <button class="custom-button" onclick="reset()">C</button>
+            <button class="custom-button" onclick="add(this.innerText)">0</button>
+            <button class="custom-button" onclick="calculate()">=</button>
+            <button class="custom-button" onclick="add(this.innerText)">/</button>
+        </div>
+    </div>
+</body>
+</html>

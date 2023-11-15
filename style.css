@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-button {
+    width: 25vw; 
+    height: 17vh;
+    border: 1px solid black;
+    border-radius: 5%;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background: black;
+}
+
+.flex-container {
+    width: 100vw; 
+    height: 17vh; 
+    margin: 0; 
+    display: flex;
+    justify-content: space-between;
+}
